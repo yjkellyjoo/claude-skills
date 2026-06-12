@@ -17,8 +17,10 @@ Adding a skill:
 1. Create `skills/<name>/SKILL.md` with `name` + `description` frontmatter and instructions.
 2. Run `./bootstrap.sh` to symlink it into `~/.claude/skills/`.
 3. Commit it (the `commit` skill exists for exactly this).
+4. Open a PR (the `open-pr` skill exists for exactly this — it fills `.github/PULL_REQUEST_TEMPLATE.md`).
 
 ## Conventions
 
 - Commits in this repo follow the rules in `skills/commit/SKILL.md`: Conventional Commits subject (`type(scope): subject`), bullet-point body, and `Signed-off-by` + `Co-Authored-By: Claude <model>` trailers. The `<model>` is the model currently running, not a fixed string. Branch off `main` with a `type/short-slug` name when committing from `main`.
 - When writing a `SKILL.md`, the `description` should enumerate concrete trigger phrases — that text is the sole signal for auto-invocation, so be specific about when the skill applies.
+- PRs use `.github/PULL_REQUEST_TEMPLATE.md` (what / details / checklist). The `open-pr` skill fills it; tick a checklist box only when the claim is verifiable from the diff.
