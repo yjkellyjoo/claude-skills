@@ -33,6 +33,7 @@ The symlinks point at this clone, so pulled changes are live immediately. Run `.
 | Skill | Invoke | What it does |
 |-------|--------|--------------|
 | commit | `/commit` | Split the working tree into small, feature-by-feature commits with Conventional Commits subjects, bullet bodies, and Signed-off-by + Co-Authored-By trailers. Auto-branches off the default branch when needed. |
+| open-pr | `/open-pr` | Open a GitHub PR with a body filled from the repo's PR template (creating one if the repo lacks it). Derives the title from the branch, auto-checks only verifiable checklist items, and previews for confirmation before `gh pr create`. |
 
 ## License
 
