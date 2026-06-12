@@ -48,15 +48,15 @@ When the repo has no template, build `.github/PULL_REQUEST_TEMPLATE.md` from the
 Skeleton (from a known-good template; the section shape is fixed, the checklist is yours to adapt):
 
 ```markdown
-**What does this PR resolve? 🚀**
+# What does this PR resolve? 🚀
 
 <!-- One-line summary. Then bullets: the key changes and, briefly, the why. -->
 
-**Details 📝**
+# Details 📝
 
 <!-- Implementation specifics, trade-offs, anything a reviewer needs. -->
 
-**Checklist ✅**
+# Checklist ✅
 
 - [ ] Merged latest `<default-branch>` and resolved conflicts
 - [ ] Changes are covered by tests or manually verified

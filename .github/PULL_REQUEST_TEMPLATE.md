@@ -1,12 +1,12 @@
-**What does this PR resolve? 🚀**
+# What does this PR resolve? 🚀
 
 <!-- One-line summary. Then bullets: the key changes and, briefly, the why. -->
 
-**Details 📝**
+# Details 📝
 
 <!-- Implementation specifics, trade-offs, anything a reviewer needs. -->
 
-**Checklist ✅**
+# Checklist ✅ 
 
 - [ ] Branched off `main` with a `type/short-slug` name
 - [ ] New skill directories symlinked via `./bootstrap.sh`
